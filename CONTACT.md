@@ -1,0 +1,2 @@
+- Email: me@dajve.co.uk
+- Skype: allies.dajve

@@ -1,39 +1,87 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 	<head>
 		<title>Dajve Green</title>
+        <meta name='description' content="Web developer and system architect since the late 90s, with a focus on ecommerce and CRM. Currently heading up the technical team at allies.co.uk">
 		<style type='text/css'>
-			body { background: #F1F1F1; font-family: sans-serif; font-size: 13px; line-height: 1.3em; color: #333; }
-			#logo { float: left; margin: 1em; }
-			#content { clear: both; }
-			#about { padding: 0.5em; float: left; }
-			#about p { font-style: italic; margin-bottom: 0.5em; }
-			#outbound ul { list-style: none; padding: 0; margin: 0; }
-			#outbound ul li { display: inline; margin: 1em 1em 1em 0; }
-			footer { position: fixed; bottom: 0; padding: 0.5em; }
-			a { text-decoration: none; color: #008; }
-			a:hover { font-weight: bold; }
+            body { background: #39152E; color: #FFF; }
+            code { font-family: 'Ubuntu Mono', monospace; white-space: pre; }
+            .cli-user { font-weight: 700; color: #88DF34; } 
+            .cli-loc { font-weight: 700; color: #709DCB; }
+            a.noformat { text-decoration: none; color: inherit; }
+            .md-h1 { color: #F2D1D3; }
+            .md-ln-label { color: #57B3D9; text-decoration: underline; }
+            .md-ln-a { color: #9C6F8C; }
+            .md-li-mark,.md-lineno { color: #F4E64F; }
 		</style>
-		<script src="https://use.fontawesome.com/b282416f54.js"></script>	
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700" rel="stylesheet">
 	</head>
 	<body>
-		<div id='content'>
-			<img src='./images/djv.png' alt="dajve.co.uk" id='logo' />
-			<div id='about'>
-				<p>Web developer and system architect since the late 90s, with a focus on ecommerce since 2010 and CRM since 2015.<br /> 
-				Experienced in a wide range of front and backend technologies, platforms, and methodologies.<br /> 
-				Currently heading up the technical side of Allies - a commerce agency and startup incubator based in York, UK.</p>
-			<div id='outbound'>
-				<ul>
-					<li><a href='https://www.linkedin.com/in/dajve/' title='Dajve on LinkedIn'><i class="fa fa-linkedin-square" aria-hidden="true"></i>&nbsp;LinkedIn</a></li>
-					<li><a href='https://github.com/dajve' title='Dajve on GitHub'><i class="fa fa-github-square" aria-hidden="true"></i>&nbsp;GitHub</a></li>
-					<li><a href='https://twitter.com/dajve' title='Dajve on Twitter'><i class="fa fa-twitter-square" aria-hidden="true"></i>&nbsp;Twitter</a></li>
-
-				</ul>
-			</div>
-			</div>
-		</div>
-		<footer>
-			<small><i class="fa fa-internet-explorer" aria-hidden="true"></i> Site best viewed in Internet Explorer 6 at 800&times;600 resolution</small>
-		</footer>
+<code><span class='cli-user'>me@dajve</span>:<span class='cli-loc'>~</span>$ ls -l
+total 24
+-rw------- 1 dajve dajve     412 Sep  1 07:00 ABOUT.md
+-rw------- 1 dajve dajve      46 Sep  1 07:01 CONTACT.md
+-rw-r----- 1 dajve www-data 6669 Sep  1 07:05 index.html
+-rw------- 1 dajve dajve     125 Sep  1 07:02 LINKS.md
+-rw------- 1 dajve dajve    3240 Sep  1 07:04 O-HAI.txt
+<span class='cli-user'>me@dajve</span>:<span class='cli-loc'>~</span>$ vi ABOUT.md 
+<span class='md-lineno'> 1</span> <span class='md-h1'># Dajve Green</span>
+<span class='md-lineno'> 2</span> 
+<span class='md-lineno'> 3</span> Web developer and system architect since the late 90s, with a focus on 
+   <a href="http://magento.com" class='noformat'>[<span class='md-ln-label'>ecommerce</span>](<span class='md-ln-a'>https://magento.com</span>)</a> since 2010 and <a href="https://www.orocrm.com" class='noformat'>[<span class='md-ln-label'>CRM</span>](<span class='md-ln-a'>https://www.orocrm.com</span>)</a> 
+   since 2015.
+<span class='md-lineno'> 4</span> Experienced in a wide range of front and backend technologies, platforms, and 
+   methodologies.
+<span class='md-lineno'> 5</span> Currently heading up the technical side of <a href="https://allies.co.uk" class='noformat'>[<span class='md-ln-label'>Allies</span>](<span class='md-ln-a'>https://allies.co.uk</span>)</a> - a 
+   commerce agency and startup incubator based in York, UK.
+<span class='cli-user'>me@dajve</span>:<span class='cli-loc'>~</span>$ vi CONTACT.md
+<span class='md-lineno'> 1</span> - Email: me@dajve.co.uk
+<span class='md-lineno'> 2</span> - Skype: allies.dajve
+<span class='cli-user'>me@dajve</span>:<span class='cli-loc'>~</span>$ vi LINKS.md
+<span class='md-lineno'> 1</span> <span class='md-li-mark'>-</span> <a href="https://www.linkedin.com/in/dajve/" class='noformat'>[<span class='md-ln-label'>LinkedIn</span>](<span class='md-ln-a'>https://www.linkedin.com/in/dajve/</span>)</a>
+<span class='md-lineno'> 2</span> <span class='md-li-mark'>-</span> <a href="https://github.com/dajve" class='noformat'>[<span class='md-ln-label'>GitHub</span>](<span class='md-ln-a'>https://github.com/dajve</span>)</a>
+<span class='md-lineno'> 3</span> <span class='md-li-mark'>-</span> <a href="https://twitter.com/dajve" class='noformat'>[<span class='md-ln-label'>Twitter</span>](<span class='md-ln-a'>https://twitter.com/dajve</span>)</a>
+<span class='cli-user'>me@dajve</span>:<span class='cli-loc'>~</span>$ cat O-HAI.txt
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXK00K0OOkkO00KKXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXK0kxxxxdodddxkkO0KXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXNXXXXXNNNXXKOkxxddddddoooooooxkOKXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXNXXNXXXXXKKOkkOO00KKKK000Okxdlclodk0XXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXNNNNNNNNNNNNNNXXNXKK000KXNNNNNNNNNNXXXXXK0ko:,,lkKXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXNNNNNNNNNNNNXNNXK0kOKXXNNNNNNNNNNNNNNNNXXXXKKOd:,;lx0XXXXXXXX
+XXXXXXXXXXXXXXXXNNNNNNNNNNNNNNNNNX0xdOKXXNNNNNWNNWWWWWNNNNNNXXXKK0Ol,.,ckKXXXXXX
+XXXXXXXXXXXXXXNNNNNNNNNNNNNNNNNNXOdx0XXXNNNNNNNWWWWWWWNNNNNXXXXKKK00x:..:kXXXXXX
+XXXXXXXXXXXXNNNNNNNNNNNNNNNNNNNXkoxKXXXXXXNNNNNWWWNNNNNNNNXXXXKKK000Oko,'l0XXXXX
+XXXXXXXXXXXNNNNNNNNNNNNNNNNNNNN0dkKKXXXXXXNNNNNNNNNNNNNNNXXXXXKK000Okkkx:;d0XXXX
+XXXXXXXXNNNNNNNNNNNNNNNNNNNNNNXkkKXXXXXXXNNNNNNNNNNNNNNNNXXXXKK000OOkOOOxc;dKXXX
+XXXXXXNNNNNNNNNNNNNNNNNNNNNNNN0kOKXXXXXXXXXXXNNNNNNNNNNNXXXXXXKKK00OOOOOkl,;kXXX
+XXXXXXNNNNNNNNNNNNNNNNNNNNNNNNOx0KKXXXXXKXKKKXXXXXXXXXKKKKKKKKKKK00OOOkxdc..lKXX
+XXXXXNNNNNNNNNNNNNNNNNNNNNNNNXkxO000OkkkkkkkO00KKKK00OOkkOOO000000Okxxdoc,..lKXX
+XXXXNNNNNNNNNNNNNNNNNNNNNNNNNXOkxddolcc::;;:loxO000Oxoc:;;;:lodxkOOkddol;...dXXX
+XXXXNNNNNNNNNNNNNNNNNNNNNNNNNX0xoc:ccllc::;;::ok0K0xl;;;;;;::cccllloollc;. 'kXXX
+XXXXNNNNNNNNNNNNNNNNNNNNNNNNNX0xl::cc:,'.',;::oOXXKx:,;:;:cllc:;;;,;:ccc,. ;0XXX
+XXXNNNNNNNNNNNNNNNNNNNNNNNNNNX0Oxlccl:'..,clooxKNNKd::c;::,'',;,',,,,:lc,..cKXXX
+XXNNNNNNNNNNNNNNNNNNNNNNNNNNNX000kxddoooodxkO00XNNKkooolddc'.',,',;;:col;..dXXXX
+NNNNNNNNNNNNNNNNNNNNNNNNNNNNNK0KKK0OOkkkOO0KKKKXNNKOxkOkxxdolc:::ccooddo;.,o0XXX
+NNNNNNNNNNNNNNNNNNNNNNNNNNNNX0OKXXXKK000KKKKK0KXNNKkxO00OOkxxddxxkkkxxdo:,''lKXX
+NNNNNNNNNNNNNNNNNNNNNNNNNNNNX0kO00KKKKKKKKK000KXXX0kxkO0K00OO0000K0Okdol:,',dKXX
+NNNNNNNNNNNNNNNNNNNNNNNNNNNNXOxxkOO0KKKKKK0O0KKXNXKOkxk0KKKKKKK000Okxolc;,;lOXXX
+NNNNNNNNNNNNNNNNNNNNNNNNNNNNXOdxkO00KKK00000KKKXXX0OOkkOKKKKKK0Okxxdoc:;,:lkKXXX
+NNNNNNNNNNNNNNNNNNNNNNNNNNNNXkodxkO0000000OdldkkxdoclodO000000Okxdolc:;,,cd0XXXX
+XNNNNNNNNNNNNNNNNNNNNNNNNNNNXOooxkO000KKKKOo;,;,''...'lO000OOkxxdllc:;,,,:dKXXXX
+XXXXNNNNNNNNNNNNNNNNNNNNNNNNN0dldkOO000OOkxlc:;,''...,oOKK0Okkxdolcc;,,,;lOXXKXX
+XXXXNNNNNNNNNNNNNNNNNNNNNNNNNXklldkOOkxxdxxddolcc:;,,;lxOOOOkxdolc:;,,,:x0KXKKXK
+XXXXXNNNNNNNNNNNNNNNNNNNNNNNNN0ocoxxolc:::c:::cc:;;::clooddxxdolc:;,,';xKXXXXXXK
+XXXXXXNXXNNNNNNNNNNNNNNNNNNNNNXklcllc;;;;;:cc:;,,''''',,;:ccool:;,''',dKXXXXXXKK
+XXXXXXNXXXXXNNNNNNNNNNNNNXNNXXNKkl::::loollooddoollc:;,,;;;;cc;,'...'o0KKKKKKKKK
+XXXXXXXXXXXXNNXXNXNNXXNNXXNXXXKko:,,;codxdl:;,',,,,,,;::::;;,''.....'xXKKXXKKXKK
+XXXXXXXXXXXXXXXXXXXXXXXNXXNX0o,.....,;ldkkkxl:,,'';:cccc:;,'.......  ;0XKXKKXKKK
+XXXXXXXXXXXXXXXXXXXXXXXXXXKd,...    ..;ldxxxdddolloooooc;'........   .lKXKKKKKKK
+XXXXXXXXXXXXXXXXXXXXXXXXXk;....      ..;::clllllllolc::,.........     .:d0KKKKKK
+XXXXXXXXXXXXXXXXXXXXXXXXx,....        ..'''','',,;,,'..........         .'lkKKKK
+XXXXXXXXXXXXXXXXXXXXXXXx,...         .;:;,'...................             'dKKK
+XXXXXXXXXXXXXXXXXXXXXXk,......     .;ool::;'................                .l0K
+XXXXXXXXXXXXXXXXXXXXXO,.......     ,dxdlcc:;,''...........                  ..;x
+XXXXXXXXXXXXXXXXXXXXKc........    .lkxxollccc;,,'.........                  ...;
+        </code> 
 	</body>
 </html>

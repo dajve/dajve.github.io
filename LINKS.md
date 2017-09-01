@@ -1,0 +1,3 @@
+- [LinkedIn](https://www.linkedin.com/in/dajve/)
+- [GitHub](https://github.com/dajve)
+- [Twitter](https://twitter.com/dajve)
